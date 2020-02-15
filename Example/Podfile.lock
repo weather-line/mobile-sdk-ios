@@ -42,12 +42,11 @@ PODS:
     - CrowdinSDK/RealtimeUpdate
     - CrowdinSDK/RefreshLocalization
     - CrowdinSDK/Screenshots
-  - DateToolsSwift (4.0.0)
   - FAPanels (1.0.2)
   - FileBrowser (1.0.0)
-  - R.swift (5.0.1):
-    - R.swift.Library (~> 5.0.0)
-  - R.swift.Library (5.0.0)
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
   - Starscream (3.0.6)
   - SwiftLint (0.31.0)
 
@@ -58,7 +57,6 @@ DEPENDENCIES:
   - CrowdinSDK/RefreshLocalization (from `../`)
   - CrowdinSDK/Screenshots (from `../`)
   - CrowdinSDK/Settings (from `../`)
-  - DateToolsSwift
   - FAPanels
   - FileBrowser (from `https://github.com/serhii-londar/FileBrowser.git`)
   - R.swift
@@ -66,13 +64,12 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - DateToolsSwift
     - FAPanels
-    - R.swift
-    - R.swift.Library
     - SwiftLint
   trunk:
     - BaseAPI
+    - R.swift
+    - R.swift.Library
     - Starscream
 
 EXTERNAL SOURCES:
@@ -89,14 +86,13 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   BaseAPI: 78f88151221ac5d2dcc2dda69cf3aab6773fd8eb
   CrowdinSDK: 8d9621afb30bfb83cdbd6ec790ddb2714c9b823f
-  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
   FAPanels: 520037c53f4ded152e8e6103d97f79b644473363
   FileBrowser: 7a361252fed9fe35d95735a39d149b1cac5601d0
-  R.swift: a8e1a7e7f38441282fbcb7a3c266076eb38b77ba
-  R.swift.Library: 0bf390e729bc10bb2c9e4fb78bd043164a7be4ff
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
   Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
 
-PODFILE CHECKSUM: cb4810c0866ef3470dd579628c19df3ddd0808de
+PODFILE CHECKSUM: 102da45ee3d8cf22281bd0fc7c7ec3f11ed6dda0
 
 COCOAPODS: 1.8.4
