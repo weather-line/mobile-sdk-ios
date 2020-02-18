@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BlueprintIdentifier = "E866AA2B23F80CB3008C966A"
                BuildableName = "CrowdinSDK_Tests.xctest"
                BlueprintName = "CrowdinSDK_Tests"
                ReferencedContainer = "container:CrowdinSDK.xcodeproj">
@@ -55,7 +55,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BlueprintIdentifier = "E866AA2B23F80CB3008C966A"
                BuildableName = "CrowdinSDK_Tests.xctest"
                BlueprintName = "CrowdinSDK_Tests"
                ReferencedContainer = "container:CrowdinSDK.xcodeproj">
