@@ -50,7 +50,7 @@ class Localization {
 			case .customBundle:
 				UserDefaults.standard.appleLanguage = newValue
 			}
-            self.provider.localization = newValue ?? Bundle.main.preferredLanguage
+            self.provider.localization = newValue ?? Bundle.main.preferredLanguage(with: provider.localizations)
 		}
 		get {
 			switch mode {

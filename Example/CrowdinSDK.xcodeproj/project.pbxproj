@@ -22,6 +22,8 @@
 		9268149E21FCE9350052F778 /* BaseMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268149D21FCE9350052F778 /* BaseMenuVC.swift */; };
 		927159BC224BDB8B00E8B567 /* StringsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927159BB224BDB8B00E8B567 /* StringsCell.swift */; };
 		927159BE224BDF3400E8B567 /* PluralsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927159BD224BDF3400E8B567 /* PluralsCell.swift */; };
+		92715D272435C87200B9B26D /* CDNSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92715D262435C87200B9B26D /* CDNSettingsVC.swift */; };
+		92715D292435C88000B9B26D /* CDNSettingsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92715D282435C88000B9B26D /* CDNSettingsVC.storyboard */; };
 		92A1BCDB2210A3C70086B3AC /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92A1BCDA2210A3C70086B3AC /* Localizable.plist */; };
 		92A1BCE52210C7CD0086B3AC /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1BCE42210C7CC0086B3AC /* R.generated.swift */; };
 		92AFC6C0224FA2E7008029F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AFC6BF224FA2E7008029F3 /* LaunchScreen.storyboard */; };
@@ -55,6 +57,8 @@
 		9268149D21FCE9350052F778 /* BaseMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuVC.swift; sourceTree = "<group>"; };
 		927159BB224BDB8B00E8B567 /* StringsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsCell.swift; sourceTree = "<group>"; };
 		927159BD224BDF3400E8B567 /* PluralsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralsCell.swift; sourceTree = "<group>"; };
+		92715D262435C87200B9B26D /* CDNSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDNSettingsVC.swift; sourceTree = "<group>"; };
+		92715D282435C88000B9B26D /* CDNSettingsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CDNSettingsVC.storyboard; sourceTree = "<group>"; };
 		92A1BCDA2210A3C70086B3AC /* Localizable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Localizable.plist; sourceTree = "<group>"; };
 		92A1BCE42210C7CC0086B3AC /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		92AFC6BF224FA2E7008029F3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 		607FACD21AFB9204008FA782 /* Example for CrowdinSDK */ = {
 			isa = PBXGroup;
 			children = (
+				92715D252435C85400B9B26D /* CDNSettingsVC */,
 				92ECA8E222495E2F000DD994 /* PluralsVC */,
 				C836C155221B1ECF006CEECF /* StringsVC */,
 				92A1BCE42210C7CC0086B3AC /* R.generated.swift */,
@@ -192,6 +197,15 @@
 				C82D2892220B431C00DB239B /* MainViewController.storyboard */,
 			);
 			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		92715D252435C85400B9B26D /* CDNSettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				92715D262435C87200B9B26D /* CDNSettingsVC.swift */,
+				92715D282435C88000B9B26D /* CDNSettingsVC.storyboard */,
+			);
+			path = CDNSettingsVC;
 			sourceTree = "<group>";
 		};
 		92ECA8E222495E2F000DD994 /* PluralsVC */ = {
@@ -300,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92715D292435C88000B9B26D /* CDNSettingsVC.storyboard in Resources */,
 				C82D2893220B431C00DB239B /* MainViewController.storyboard in Resources */,
 				92E65440224F8090009178C6 /* Localizable.strings in Resources */,
 				9255BF4C21FCBE2D00C80A40 /* GoogleService-Info.plist in Resources */,
@@ -424,6 +439,7 @@
 				927159BE224BDF3400E8B567 /* PluralsCell.swift in Sources */,
 				92A1BCE52210C7CD0086B3AC /* R.generated.swift in Sources */,
 				9232188221FE21DA009F8339 /* SettingsVC.swift in Sources */,
+				92715D272435C87200B9B26D /* CDNSettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

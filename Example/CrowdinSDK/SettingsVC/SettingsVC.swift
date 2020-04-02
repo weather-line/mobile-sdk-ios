@@ -34,12 +34,14 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
             label.text = NSLocalizedString("settings_in_bundle", comment: "")
         } else if section == 1 {
             label.text = NSLocalizedString("settings_in_sdk", comment: "")
+        } else if section == 2 {
+            label.text = NSLocalizedString("settings_cdn", comment: "")
         }
         return label
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 3
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -47,6 +49,8 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
             return CrowdinSDK.inBundleLocalizations.count
         } else if section == 1 {
             return CrowdinSDK.inSDKLocalizations.count
+        } else if section == 2 {
+            return 1
         }
         return 0
     }
@@ -64,6 +68,9 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
             if CrowdinSDK.mode == .customSDK && CrowdinSDK.inSDKLocalizations[indexPath.row] == CrowdinSDK.currentLocalization  {
                 cell.accessoryType = .checkmark
             }
+        } else if indexPath.section == 2 {
+            cell.textLabel?.text = "Setup"
+            cell.accessoryType = .disclosureIndicator
         }
         return cell
     }
@@ -85,6 +92,9 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
             } else {
                 CrowdinSDK.enableSDKLocalization(true, localization: localization)
             }
+        } else if indexPath.section == 2 {
+            let cdnSettingsVC = UIStoryboard(name: "CDNSettingsVC", bundle: nil).instantiateViewController(withIdentifier: "CDNSettingsVC") as! CDNSettingsVC
+            self.present(cdnSettingsVC, animated: true, completion: nil)
         }
         self.tableView.reloadData()
     }
