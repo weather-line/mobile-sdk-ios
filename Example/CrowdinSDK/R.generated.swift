@@ -318,6 +318,15 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, de, uk
       static let details_segmentedControl_1 = Rswift.StringResource(key: "details_segmentedControl_1", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "de", "uk"], comment: nil)
+      /// en translation: test value with parameter - %@ [BUNDLE]
+      ///
+      /// Locales: en, de, uk
+      static let test_key_with_string_parameter = Rswift.StringResource(key: "test_key_with_string_parameter", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "de", "uk"], comment: nil)
+      /// en translation: test value with parameter - %lu [BUNDLE]
+      ///
+      /// Locales: en, de, uk
+      static let test_key_with_int_parameter = Rswift.StringResource(key: "test_key_with_int_parameter", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "de", "uk"], comment: nil)
+
       /// en translation: Back
       ///
       /// Locales: en, de, uk
@@ -760,6 +769,41 @@ struct R: Rswift.Validatable {
 
         return NSLocalizedString("details_segmentedControl_1", bundle: bundle, comment: "")
       }
+
+      /// en translation: test value with parameter - %@ [BUNDLE]
+      ///
+      /// Locales: en, de, uk
+      static func test_key_with_string_parameter(_ value1: String, preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          let format = NSLocalizedString("test_key_with_string_parameter", bundle: hostingBundle, comment: "")
+          return String(format: format, locale: applicationLocale, value1)
+        }
+
+        guard let (locale, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "test_key_with_string_parameter"
+        }
+
+        let format = NSLocalizedString("test_key_with_string_parameter", bundle: bundle, comment: "")
+        return String(format: format, locale: locale, value1)
+      }
+
+      /// en translation: test value with parameter - %lu [BUNDLE]
+      ///
+      /// Locales: en, de, uk
+      static func test_key_with_int_parameter(_ value1: UInt, preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          let format = NSLocalizedString("test_key_with_int_parameter", bundle: hostingBundle, comment: "")
+          return String(format: format, locale: applicationLocale, value1)
+        }
+
+        guard let (locale, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "test_key_with_int_parameter"
+        }
+
+        let format = NSLocalizedString("test_key_with_int_parameter", bundle: bundle, comment: "")
+        return String(format: format, locale: locale, value1)
+      }
+
       fileprivate init() {}
     }
 

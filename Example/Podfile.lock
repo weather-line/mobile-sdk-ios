@@ -1,19 +1,19 @@
 PODS:
   - BaseAPI (0.1.7)
-  - CrowdinSDK (1.1.4):
-    - CrowdinSDK/Core (= 1.1.4)
-    - CrowdinSDK/CrowdinProvider (= 1.1.4)
-  - CrowdinSDK/Core (1.1.4)
-  - CrowdinSDK/Core_Tests (1.1.4)
-  - CrowdinSDK/CrowdinAPI (1.1.4):
+  - CrowdinSDK (1.1.5):
+    - CrowdinSDK/Core (= 1.1.5)
+    - CrowdinSDK/CrowdinProvider (= 1.1.5)
+  - CrowdinSDK/Core (1.1.5)
+  - CrowdinSDK/Core_Tests (1.1.5)
+  - CrowdinSDK/CrowdinAPI (1.1.5):
     - BaseAPI (= 0.1.7)
     - Starscream (~> 3.1.0)
-  - CrowdinSDK/CrowdinAPI_Tests (1.1.4)
-  - CrowdinSDK/CrowdinProvider (1.1.4):
+  - CrowdinSDK/CrowdinAPI_Tests (1.1.5)
+  - CrowdinSDK/CrowdinProvider (1.1.5):
     - CrowdinSDK/Core
     - CrowdinSDK/CrowdinAPI
-  - CrowdinSDK/CrowdinProvider_Tests (1.1.4)
-  - CrowdinSDK/IntervalUpdate (1.1.4):
+  - CrowdinSDK/CrowdinProvider_Tests (1.1.5)
+  - CrowdinSDK/IntervalUpdate (1.1.5):
     - CrowdinSDK/Core
     - CrowdinSDK/CrowdinAPI
     - CrowdinSDK/CrowdinProvider

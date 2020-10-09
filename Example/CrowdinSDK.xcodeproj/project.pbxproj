@@ -39,7 +39,6 @@
 		E8C1CAA424C75292007EEAF7 /* CrowdinLoginConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1CA9524C75292007EEAF7 /* CrowdinLoginConfigTests.swift */; };
 		E8C1CAA524C75292007EEAF7 /* CrowdinSDKConfigLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1CA9624C75292007EEAF7 /* CrowdinSDKConfigLoginTests.swift */; };
 		E8C1CAA624C75292007EEAF7 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1CA9724C75292007EEAF7 /* BundleTests.swift */; };
-		E8C1CAA724C75292007EEAF7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8C1CA9824C75292007EEAF7 /* Info.plist */; };
 		E8C1CAA824C75292007EEAF7 /* SDKModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1CA9924C75292007EEAF7 /* SDKModeTests.swift */; };
 		E8C1CAA924C75292007EEAF7 /* EnableSDKLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1CA9A24C75292007EEAF7 /* EnableSDKLocalizationTests.swift */; };
 		E8C1CAAA24C75292007EEAF7 /* CrowdinTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1CA9B24C75292007EEAF7 /* CrowdinTesterTests.swift */; };
@@ -443,7 +442,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C1CAA724C75292007EEAF7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
