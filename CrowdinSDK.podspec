@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
   
   spec.frameworks = 'UIKit'
   spec.static_framework = false
-  spec.swift_version = '4.2'
+  spec.swift_version = '5'
   spec.default_subspecs = 'Core', 'CrowdinProvider'
   
   spec.subspec 'Core' do |core|
