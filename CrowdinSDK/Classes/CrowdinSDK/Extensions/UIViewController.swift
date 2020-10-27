@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 // MARK: - Custom view controller presentation and dismiss.
 public extension UIViewController {
